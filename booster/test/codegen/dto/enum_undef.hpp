@@ -1,0 +1,50 @@
+
+
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM_MACRO
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM_NAME
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM_NAME_STR
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM_VALUE
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM_VALUE_STR
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM
+
+#undef VALUE
+
+//////////////////////////////////////////////////////////////////////////
+
+#undef BOOSTER_MACRO_DTO_ENUM_MACRO_SELECTOR
+
+//////////////////////////////////////////////////////////////////////////
+
+// VALUE MACRO
+
+#undef BOOSTER_MACRO_DTO_ENUM_VALUE_1
+
+
+#undef BOOSTER_MACRO_DTO_ENUM_VALUE_2
+
+
+#undef BOOSTER_MACRO_DTO_ENUM_VALUE_3
+
+#undef BOOSTER_MACRO_DTO_ENUM_VALUE
+
+// FOR EACH
+
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM_DECL_FIRST
+
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM_DECL_REST
+
+
+#undef BOOSTER_MACRO_DTO_ENUM_PARAM_PUT
+
+// ENUM MACRO
+
+#undef BOOSTER_ENUM_0
+
+#undef BOOSTER_ENUM_1
+// Chooser
+
+#undef BOOSTER_ENUM_MACRO_0
+
+#undef BOOSTER_ENUM_MACRO_1
+
+#undef ENUM

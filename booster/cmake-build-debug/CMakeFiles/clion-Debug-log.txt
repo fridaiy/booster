@@ -1,0 +1,29 @@
+"E:\C++\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\fight\oatpp-master\oatpp-master -B D:\fight\oatpp-master\oatpp-master\cmake-build-debug
+
+############################################################################
+## booster module compilation config:
+
+BOOSTER_DISABLE_ENV_OBJECT_COUNTERS=OFF
+BOOSTER_THREAD_HARDWARE_CONCURRENCY=AUTO
+BOOSTER_COMPAT_BUILD_NO_THREAD_LOCAL=OFF
+
+############################################################################
+
+booster version: '1.4.0'
+CMake Error at CMakeLists.txt:120 (include):
+  include could not find requested file:
+
+    cmake/compiler-flags.cmake
+
+
+CMake Error at CMakeLists.txt:122 (include):
+  include could not find requested file:
+
+    cmake/msvc-runtime.cmake
+
+
+CMake Error at CMakeLists.txt:123 (configure_msvc_runtime):
+  Unknown CMake command "configure_msvc_runtime".
+
+
+-- Configuring incomplete, errors occurred!

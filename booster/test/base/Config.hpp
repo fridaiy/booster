@@ -1,0 +1,45 @@
+
+
+
+
+#ifndef booster_base_Config_hpp
+#define booster_base_Config_hpp
+
+
+//#define BOOSTER_DISABLE_ENV_OBJECT_COUNTERS
+
+
+//#define BOOSTER_DISABLE_POOL_ALLOCATIONS
+
+
+//#define BOOSTER_THREAD_HARDWARE_CONCURRENCY 4
+
+
+#ifndef BOOSTER_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT
+  #define BOOSTER_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT 10
+#endif
+
+
+//#define BOOSTER_COMPAT_BUILD_NO_THREAD_LOCAL 1
+
+#ifndef BOOSTER_FLOAT_STRING_FORMAT
+  #define BOOSTER_FLOAT_STRING_FORMAT "%.16g"
+#endif
+
+
+//#define BOOSTER_DISABLE_LOGV
+
+
+//#define BOOSTER_DISABLE_LOGD
+
+
+//#define BOOSTER_DISABLE_LOGI
+
+
+//#define BOOSTER_DISABLE_LOGW
+
+
+//#define BOOSTER_DISABLE_LOGE
+
+
+#endif 

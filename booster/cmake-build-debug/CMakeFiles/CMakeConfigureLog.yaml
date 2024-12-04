@@ -1,0 +1,642 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/tool/MinGW/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6tei2r"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6tei2r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6tei2r'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_00ba7
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=E:\\tool\\MinGW\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00ba7.dir/'
+         e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_00ba7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\DELL\\AppData\\Local\\Temp\\cc1AvenT.s
+        GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"
+        ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"
+        ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+        ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+        ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+        ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0
+         e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32
+         e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward
+         e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+         e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+         e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 0020e270c5508fbf7dab225494ee95ff
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00ba7.dir/'
+         e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\DELL\\AppData\\Local\\Temp\\cc1AvenT.s
+        GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+        COMPILER_PATH=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;e:/tool/mingw/bin/../libexec/gcc/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;e:/tool/mingw/bin/../lib/gcc/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe  -v CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_00ba7.exe -Wl,--out-implib,libcmTC_00ba7.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\tool\\MinGW\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.2.0 (GCC) 
+        COMPILER_PATH=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;e:/tool/mingw/bin/../libexec/gcc/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;e:/tool/mingw/bin/../lib/gcc/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00ba7.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_00ba7.'
+         e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DELL\\AppData\\Local\\Temp\\ccdfqu5d.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_00ba7.exe e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Le:/tool/mingw/bin/../lib/gcc -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_00ba7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00ba7.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_00ba7.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0]
+          add: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32]
+          add: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward]
+          add: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+          add: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+          add: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0] ==> [E:/tool/MinGW/include/c++/11.2.0]
+        collapse include dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32] ==> [E:/tool/MinGW/include/c++/11.2.0/x86_64-w64-mingw32]
+        collapse include dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward] ==> [E:/tool/MinGW/include/c++/11.2.0/backward]
+        collapse include dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+        collapse include dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+        collapse include dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [E:/tool/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [E:/tool/MinGW/include/c++/11.2.0;E:/tool/MinGW/include/c++/11.2.0/x86_64-w64-mingw32;E:/tool/MinGW/include/c++/11.2.0/backward;E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include;E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;E:/tool/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6tei2r']
+        ignore line: []
+        ignore line: [Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_00ba7]
+        ignore line: [[1/2] E:\\tool\\MinGW\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\tool\\MinGW\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00ba7.dir/']
+        ignore line: [ e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_00ba7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\DELL\\AppData\\Local\\Temp\\cc1AvenT.s]
+        ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "e:/tool/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0]
+        ignore line: [ e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32]
+        ignore line: [ e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward]
+        ignore line: [ e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+        ignore line: [ e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+        ignore line: [ e:\\tool\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 0020e270c5508fbf7dab225494ee95ff]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00ba7.dir/']
+        ignore line: [ e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\DELL\\AppData\\Local\\Temp\\cc1AvenT.s]
+        ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+        ignore line: [COMPILER_PATH=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [e:/tool/mingw/bin/../libexec/gcc/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe  -v CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_00ba7.exe -Wl --out-implib libcmTC_00ba7.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\tool\\MinGW\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [e:/tool/mingw/bin/../libexec/gcc/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00ba7.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_00ba7.']
+        link line: [ e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DELL\\AppData\\Local\\Temp\\ccdfqu5d.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_00ba7.exe e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Le:/tool/mingw/bin/../lib/gcc -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_00ba7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o\x0d]
+          arg [e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=e:/tool/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\DELL\\AppData\\Local\\Temp\\ccdfqu5d.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/temp/gcc/dest] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_00ba7.exe] ==> ignore
+          arg [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+          arg [-Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+          arg [-Le:/tool/mingw/bin/../lib/gcc] ==> dir [e:/tool/mingw/bin/../lib/gcc]
+          arg [-Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+          arg [-Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-Le:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+          arg [CMakeFiles/cmTC_00ba7.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_00ba7.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [E:/tool/MinGW/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+        collapse obj [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        collapse library dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0]
+        collapse library dir [e:/tool/mingw/bin/../lib/gcc] ==> [E:/tool/MinGW/lib/gcc]
+        collapse library dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [E:/tool/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [E:/tool/MinGW/lib]
+        collapse library dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [E:/tool/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [E:/tool/MinGW/lib]
+        implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [E:/tool/MinGW/x86_64-w64-mingw32/lib/crt2.o;E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        implicit dirs: [E:/tool/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0;E:/tool/MinGW/lib/gcc;E:/tool/MinGW/x86_64-w64-mingw32/lib;E:/tool/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/compiler-flags.cmake:31 (check_cxx_compiler_flag)"
+      - "cmake/compiler-flags.cmake:52 (add_cxx_compiler_flags)"
+      - "cmake/compiler-flags.cmake:184 (add_compiler_flags)"
+      - "CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test CXXFLAG_ftrivial_auto_var_init_zero"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u04jhg"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u04jhg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CXXFLAG_ftrivial_auto_var_init_zero"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u04jhg'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_5c384
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_ftrivial_auto_var_init_zero  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -ftrivial-auto-var-init=zero -o CMakeFiles/cmTC_5c384.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u04jhg/src.cxx
+        FAILED: CMakeFiles/cmTC_5c384.dir/src.cxx.obj 
+        E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_ftrivial_auto_var_init_zero  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -ftrivial-auto-var-init=zero -o CMakeFiles/cmTC_5c384.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u04jhg/src.cxx
+        g++.exe: error: unrecognized command-line option '-ftrivial-auto-var-init=zero'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/compiler-flags.cmake:31 (check_cxx_compiler_flag)"
+      - "cmake/compiler-flags.cmake:52 (add_cxx_compiler_flags)"
+      - "cmake/compiler-flags.cmake:185 (add_compiler_flags)"
+      - "CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test CXXFLAG_Warray_compare"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wo02lu"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wo02lu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CXXFLAG_Warray_compare"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wo02lu'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_f722c
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Warray_compare  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Warray-compare -o CMakeFiles/cmTC_f722c.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wo02lu/src.cxx
+        FAILED: CMakeFiles/cmTC_f722c.dir/src.cxx.obj 
+        E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Warray_compare  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Warray-compare -o CMakeFiles/cmTC_f722c.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wo02lu/src.cxx
+        g++.exe: error: unrecognized command-line option '-Warray-compare'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/compiler-flags.cmake:31 (check_cxx_compiler_flag)"
+      - "cmake/compiler-flags.cmake:52 (add_cxx_compiler_flags)"
+      - "cmake/compiler-flags.cmake:186 (add_compiler_flags)"
+      - "CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test CXXFLAG_Wbidi_chars_unpaired_ucn"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u989do"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u989do"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CXXFLAG_Wbidi_chars_unpaired_ucn"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u989do'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_baebf
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Wbidi_chars_unpaired_ucn  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Wbidi-chars=unpaired,ucn -o CMakeFiles/cmTC_baebf.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u989do/src.cxx
+        FAILED: CMakeFiles/cmTC_baebf.dir/src.cxx.obj 
+        E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Wbidi_chars_unpaired_ucn  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Wbidi-chars=unpaired,ucn -o CMakeFiles/cmTC_baebf.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u989do/src.cxx
+        g++.exe: error: unrecognized command-line option '-Wbidi-chars=unpaired,ucn'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/compiler-flags.cmake:31 (check_cxx_compiler_flag)"
+      - "cmake/compiler-flags.cmake:52 (add_cxx_compiler_flags)"
+      - "cmake/compiler-flags.cmake:187 (add_compiler_flags)"
+      - "CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test CXXFLAG_Winfinite_recursion"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3bev6n"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3bev6n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CXXFLAG_Winfinite_recursion"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3bev6n'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_aebba
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Winfinite_recursion  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Winfinite-recursion -o CMakeFiles/cmTC_aebba.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3bev6n/src.cxx
+        FAILED: CMakeFiles/cmTC_aebba.dir/src.cxx.obj 
+        E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Winfinite_recursion  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Winfinite-recursion -o CMakeFiles/cmTC_aebba.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3bev6n/src.cxx
+        g++.exe: error: unrecognized command-line option '-Winfinite-recursion'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/compiler-flags.cmake:31 (check_cxx_compiler_flag)"
+      - "cmake/compiler-flags.cmake:52 (add_cxx_compiler_flags)"
+      - "cmake/compiler-flags.cmake:188 (add_compiler_flags)"
+      - "CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test CXXFLAG_Wopenacc_parallelism"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8o6brt"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8o6brt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CXXFLAG_Wopenacc_parallelism"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8o6brt'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_014b1
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Wopenacc_parallelism  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Wopenacc-parallelism -o CMakeFiles/cmTC_014b1.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8o6brt/src.cxx
+        FAILED: CMakeFiles/cmTC_014b1.dir/src.cxx.obj 
+        E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Wopenacc_parallelism  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Wopenacc-parallelism -o CMakeFiles/cmTC_014b1.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8o6brt/src.cxx
+        g++.exe: error: unrecognized command-line option '-Wopenacc-parallelism'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/compiler-flags.cmake:31 (check_cxx_compiler_flag)"
+      - "cmake/compiler-flags.cmake:52 (add_cxx_compiler_flags)"
+      - "cmake/compiler-flags.cmake:189 (add_compiler_flags)"
+      - "CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test CXXFLAG_Wtrivial_auto_var_init"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6g5ljg"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6g5ljg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CXXFLAG_Wtrivial_auto_var_init"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6g5ljg'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_8d5b6
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Wtrivial_auto_var_init  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Wtrivial-auto-var-init -o CMakeFiles/cmTC_8d5b6.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6g5ljg/src.cxx
+        FAILED: CMakeFiles/cmTC_8d5b6.dir/src.cxx.obj 
+        E:\\tool\\MinGW\\bin\\g++.exe -DCXXFLAG_Wtrivial_auto_var_init  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion  -fdiagnostics-color=always   -Wtrivial-auto-var-init -o CMakeFiles/cmTC_8d5b6.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6g5ljg/src.cxx
+        g++.exe: error: unrecognized command-line option '-Wtrivial-auto-var-init'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/CMakeLists.txt:328 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7get4e"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7get4e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7get4e'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_00a71
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move  -fdiagnostics-color=always -o CMakeFiles/cmTC_00a71.dir/src.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7get4e/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move  CMakeFiles/cmTC_00a71.dir/src.cxx.obj -o cmTC_00a71.exe -Wl,--out-implib,libcmTC_00a71.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_00a71.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move  CMakeFiles/cmTC_00a71.dir/src.cxx.obj -o cmTC_00a71.exe -Wl,--out-implib,libcmTC_00a71.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: unrecognized option '-z'\x0d
+        e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: use the --help option for usage information\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "src/CMakeLists.txt:328 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-poqzm5"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-poqzm5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-poqzm5'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_d2767
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe   -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move -DCHECK_FUNCTION_EXISTS=pthread_create -fdiagnostics-color=always -o CMakeFiles/cmTC_d2767.dir/CheckFunctionExists.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-poqzm5/CheckFunctionExists.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_d2767.dir/CheckFunctionExists.cxx.obj -o cmTC_d2767.exe -Wl,--out-implib,libcmTC_d2767.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthreads  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_d2767.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_d2767.dir/CheckFunctionExists.cxx.obj -o cmTC_d2767.exe -Wl,--out-implib,libcmTC_d2767.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthreads  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: unrecognized option '-z'\x0d
+        e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: use the --help option for usage information\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "src/CMakeLists.txt:328 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gym3xh"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gym3xh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gym3xh'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_a158a
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe   -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move -DCHECK_FUNCTION_EXISTS=pthread_create -fdiagnostics-color=always -o CMakeFiles/cmTC_a158a.dir/CheckFunctionExists.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gym3xh/CheckFunctionExists.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_a158a.dir/CheckFunctionExists.cxx.obj -o cmTC_a158a.exe -Wl,--out-implib,libcmTC_a158a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthread  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_a158a.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_a158a.dir/CheckFunctionExists.cxx.obj -o cmTC_a158a.exe -Wl,--out-implib,libcmTC_a158a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthread  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: unrecognized option '-z'\x0d
+        e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: use the --help option for usage information\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:136 (try_compile)"
+      - "E:/C++/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "src/CMakeLists.txt:328 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji"
+      binary: "D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji'
+        
+        Run Build Command(s): "E:/C++/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_63fe6
+        [1/2] E:\\tool\\MinGW\\bin\\g++.exe   -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move  -fdiagnostics-color=always -o CMakeFiles/cmTC_63fe6.dir/CheckForPthreads.cxx.obj -c D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji/CheckForPthreads.cxx
+        D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji/CheckForPthreads.cxx:3:7: warning: no previous declaration for 'void* start_routine(void*)' [-Wmissing-declarations]
+            3 | void* start_routine(void* args)
+              |       ^~~~~~~~~~~~~
+        D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji/CheckForPthreads.cxx: In function 'int main()':
+        D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji/CheckForPthreads.cxx:12:27: warning: zero as null pointer constant [-Wzero-as-null-pointer-constant]
+           12 |   pthread_create(&thread, 0, start_routine, 0);
+              |                           ^
+        D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji/CheckForPthreads.cxx:12:45: warning: zero as null pointer constant [-Wzero-as-null-pointer-constant]
+           12 |   pthread_create(&thread, 0, start_routine, 0);
+              |                                             ^
+        D:/fight/oatpp-master/oatpp-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mpydji/CheckForPthreads.cxx:13:24: warning: zero as null pointer constant [-Wzero-as-null-pointer-constant]
+           13 |   pthread_join(thread, 0);
+              |                        ^
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move  CMakeFiles/cmTC_63fe6.dir/CheckForPthreads.cxx.obj -o cmTC_63fe6.exe -Wl,--out-implib,libcmTC_63fe6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -pthread  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_63fe6.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\tool\\MinGW\\bin\\g++.exe -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move  CMakeFiles/cmTC_63fe6.dir/CheckForPthreads.cxx.obj -o cmTC_63fe6.exe -Wl,--out-implib,libcmTC_63fe6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -pthread  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: unrecognized option '-z'
+        e:/tool/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

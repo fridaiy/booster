@@ -1,0 +1,3 @@
+/home/daihuiyu/dai/cpp/source/sor/booster/build/CMakeFiles/booster.dir
+/home/daihuiyu/dai/cpp/source/sor/booster/build/CMakeFiles/edit_cache.dir
+/home/daihuiyu/dai/cpp/source/sor/booster/build/CMakeFiles/rebuild_cache.dir

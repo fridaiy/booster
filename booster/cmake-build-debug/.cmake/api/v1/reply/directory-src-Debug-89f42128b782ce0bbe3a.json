@@ -1,0 +1,131 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/module-install.cmake",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/oatpp-1.4.0",
+			"paths" : 
+			[
+				"src/liboatpp.a"
+			],
+			"targetId" : "oatpp::@145eef247bfb46b6828c",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/oatpp-1.4.0",
+			"paths" : 
+			[
+				"src/liboatpp-test.a"
+			],
+			"targetId" : "oatpp-test::@145eef247bfb46b6828c",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "include/oatpp-1.4.0/oatpp",
+			"paths" : 
+			[
+				"cmake/../src/oatpp",
+				"cmake/../src/oatpp-test"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/oatpp-1.4.0",
+			"exportName" : "oatppTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "oatpp::@145eef247bfb46b6828c",
+					"index" : 0
+				},
+				{
+					"id" : "oatpp-test::@145eef247bfb46b6828c",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"src/CMakeFiles/Export/cbbe85f686f917fd9e6238e514c6996a/oatppTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Devel",
+			"destination" : "lib/cmake/oatpp-1.4.0",
+			"paths" : 
+			[
+				"cmake-build-debug/src/oatppConfig.cmake",
+				"cmake-build-debug/src/oatppConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

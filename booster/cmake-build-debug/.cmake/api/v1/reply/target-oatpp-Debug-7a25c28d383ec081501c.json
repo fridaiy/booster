@@ -1,0 +1,2743 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/liboatpp.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"include",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"cmake/module-install.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 390,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 349,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 317,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wextra -g3 -Wcast-align -Wconversion -Wdouble-promotion -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wuninitialized -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused -Wunused-label -Wunused-macros -Wunused-result -Wunused-value -Wunused-variable -Wunused-local-typedefs -Wformat=2 -Wsuggest-attribute=format -Wformat-signedness -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wsuggest-attribute=cold -Wsuggest-attribute=malloc -Warith-conversion -Wctor-dtor-privacy -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wsign-promo -Wstrict-null-sentinel -Wzero-as-null-pointer-constant -Wuseless-cast -Wconditionally-supported -Wsuggest-override -Wnoexcept-type -Wextra-semi -Wcomma-subscript -Wmismatched-tags -Wredundant-tags -Wvolatile -Wctad-maybe-unsupported -Wdeprecated-enum-enum-conversion -Wdeprecated-enum-float-conversion -Winvalid-imported-macros -Wrange-loop-construct -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -Wno-unused-parameter -Wno-pessimizing-move -g -std=c++17 -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/fight/oatpp-master/oatpp-master/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				15,
+				16,
+				17,
+				18,
+				20,
+				22,
+				24,
+				26,
+				30,
+				32,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				84,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				104,
+				106,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				146,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				167,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				185,
+				187,
+				189,
+				191,
+				193,
+				198,
+				200,
+				202,
+				204,
+				206,
+				208,
+				210,
+				212,
+				214,
+				216,
+				218,
+				220,
+				222,
+				224,
+				226,
+				228,
+				230,
+				232,
+				234,
+				236,
+				238,
+				240,
+				242,
+				244,
+				247,
+				249,
+				251,
+				253,
+				255,
+				257,
+				259,
+				261,
+				263,
+				265,
+				267,
+				269,
+				271,
+				273,
+				275,
+				277,
+				279,
+				281,
+				284,
+				286,
+				288,
+				290,
+				292,
+				294,
+				296,
+				300,
+				303,
+				305
+			]
+		}
+	],
+	"id" : "oatpp::@145eef247bfb46b6828c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib/oatpp-1.4.0"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/oatpp"
+		}
+	},
+	"name" : "oatpp",
+	"nameOnDisk" : "liboatpp.a",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\async",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12
+			]
+		},
+		{
+			"name" : "Header Files\\async",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13
+			]
+		},
+		{
+			"name" : "Header Files\\async\\utils",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		},
+		{
+			"name" : "Source Files\\async\\worker",
+			"sourceIndexes" : 
+			[
+				15,
+				16,
+				17,
+				18,
+				20,
+				22,
+				24
+			]
+		},
+		{
+			"name" : "Header Files\\async\\worker",
+			"sourceIndexes" : 
+			[
+				19,
+				21,
+				23,
+				25
+			]
+		},
+		{
+			"name" : "Source Files\\base",
+			"sourceIndexes" : 
+			[
+				26,
+				30,
+				32
+			]
+		},
+		{
+			"name" : "Header Files\\base",
+			"sourceIndexes" : 
+			[
+				27,
+				28,
+				29,
+				31,
+				33,
+				34
+			]
+		},
+		{
+			"name" : "Header Files\\codegen\\api_controller",
+			"sourceIndexes" : 
+			[
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42
+			]
+		},
+		{
+			"name" : "Header Files\\codegen\\dto",
+			"sourceIndexes" : 
+			[
+				43,
+				44,
+				45,
+				46
+			]
+		},
+		{
+			"name" : "Header Files\\codegen",
+			"sourceIndexes" : 
+			[
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54
+			]
+		},
+		{
+			"name" : "Source Files\\concurrency",
+			"sourceIndexes" : 
+			[
+				55,
+				57
+			]
+		},
+		{
+			"name" : "Header Files\\concurrency",
+			"sourceIndexes" : 
+			[
+				56,
+				58
+			]
+		},
+		{
+			"name" : "Source Files\\data",
+			"sourceIndexes" : 
+			[
+				59
+			]
+		},
+		{
+			"name" : "Header Files\\data",
+			"sourceIndexes" : 
+			[
+				60
+			]
+		},
+		{
+			"name" : "Source Files\\data\\buffer",
+			"sourceIndexes" : 
+			[
+				61,
+				63,
+				65
+			]
+		},
+		{
+			"name" : "Header Files\\data\\buffer",
+			"sourceIndexes" : 
+			[
+				62,
+				64,
+				66
+			]
+		},
+		{
+			"name" : "Source Files\\data\\mapping",
+			"sourceIndexes" : 
+			[
+				67,
+				69,
+				71,
+				73,
+				75,
+				77
+			]
+		},
+		{
+			"name" : "Header Files\\data\\mapping",
+			"sourceIndexes" : 
+			[
+				68,
+				70,
+				72,
+				74,
+				76,
+				78
+			]
+		},
+		{
+			"name" : "Source Files\\data\\resource",
+			"sourceIndexes" : 
+			[
+				79,
+				81,
+				84
+			]
+		},
+		{
+			"name" : "Header Files\\data\\resource",
+			"sourceIndexes" : 
+			[
+				80,
+				82,
+				83,
+				85
+			]
+		},
+		{
+			"name" : "Header Files\\data\\share",
+			"sourceIndexes" : 
+			[
+				86,
+				88,
+				90
+			]
+		},
+		{
+			"name" : "Source Files\\data\\share",
+			"sourceIndexes" : 
+			[
+				87,
+				89
+			]
+		},
+		{
+			"name" : "Source Files\\data\\stream",
+			"sourceIndexes" : 
+			[
+				91,
+				93,
+				95,
+				97,
+				99
+			]
+		},
+		{
+			"name" : "Header Files\\data\\stream",
+			"sourceIndexes" : 
+			[
+				92,
+				94,
+				96,
+				98,
+				100
+			]
+		},
+		{
+			"name" : "Source Files\\data\\type",
+			"sourceIndexes" : 
+			[
+				101,
+				104,
+				106,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123
+			]
+		},
+		{
+			"name" : "Header Files\\data\\type",
+			"sourceIndexes" : 
+			[
+				102,
+				103,
+				105,
+				107,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124
+			]
+		},
+		{
+			"name" : "Source Files\\encoding",
+			"sourceIndexes" : 
+			[
+				125,
+				127,
+				129,
+				131
+			]
+		},
+		{
+			"name" : "Header Files\\encoding",
+			"sourceIndexes" : 
+			[
+				126,
+				128,
+				130,
+				132
+			]
+		},
+		{
+			"name" : "Source Files\\json",
+			"sourceIndexes" : 
+			[
+				133,
+				135,
+				137,
+				139,
+				141
+			]
+		},
+		{
+			"name" : "Header Files\\json",
+			"sourceIndexes" : 
+			[
+				134,
+				136,
+				138,
+				140,
+				142
+			]
+		},
+		{
+			"name" : "Header Files\\macro",
+			"sourceIndexes" : 
+			[
+				143,
+				144,
+				145
+			]
+		},
+		{
+			"name" : "Source Files\\network",
+			"sourceIndexes" : 
+			[
+				146,
+				149,
+				151,
+				153,
+				155,
+				157
+			]
+		},
+		{
+			"name" : "Header Files\\network",
+			"sourceIndexes" : 
+			[
+				147,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158
+			]
+		},
+		{
+			"name" : "Source Files\\network\\monitor",
+			"sourceIndexes" : 
+			[
+				159,
+				161,
+				163
+			]
+		},
+		{
+			"name" : "Header Files\\network\\monitor",
+			"sourceIndexes" : 
+			[
+				160,
+				162,
+				164,
+				165,
+				166
+			]
+		},
+		{
+			"name" : "Source Files\\network\\tcp",
+			"sourceIndexes" : 
+			[
+				167
+			]
+		},
+		{
+			"name" : "Header Files\\network\\tcp",
+			"sourceIndexes" : 
+			[
+				168,
+				169
+			]
+		},
+		{
+			"name" : "Source Files\\network\\tcp\\client",
+			"sourceIndexes" : 
+			[
+				170
+			]
+		},
+		{
+			"name" : "Header Files\\network\\tcp\\client",
+			"sourceIndexes" : 
+			[
+				171
+			]
+		},
+		{
+			"name" : "Source Files\\network\\tcp\\server",
+			"sourceIndexes" : 
+			[
+				172
+			]
+		},
+		{
+			"name" : "Header Files\\network\\tcp\\server",
+			"sourceIndexes" : 
+			[
+				173
+			]
+		},
+		{
+			"name" : "Source Files\\network\\virtual_",
+			"sourceIndexes" : 
+			[
+				174,
+				176,
+				178
+			]
+		},
+		{
+			"name" : "Header Files\\network\\virtual_",
+			"sourceIndexes" : 
+			[
+				175,
+				177,
+				179
+			]
+		},
+		{
+			"name" : "Source Files\\network\\virtual_\\client",
+			"sourceIndexes" : 
+			[
+				180
+			]
+		},
+		{
+			"name" : "Header Files\\network\\virtual_\\client",
+			"sourceIndexes" : 
+			[
+				181
+			]
+		},
+		{
+			"name" : "Source Files\\network\\virtual_\\server",
+			"sourceIndexes" : 
+			[
+				182
+			]
+		},
+		{
+			"name" : "Header Files\\network\\virtual_\\server",
+			"sourceIndexes" : 
+			[
+				183
+			]
+		},
+		{
+			"name" : "Header Files\\orm",
+			"sourceIndexes" : 
+			[
+				184,
+				186,
+				188,
+				190,
+				192,
+				194
+			]
+		},
+		{
+			"name" : "Source Files\\orm",
+			"sourceIndexes" : 
+			[
+				185,
+				187,
+				189,
+				191,
+				193
+			]
+		},
+		{
+			"name" : "Header Files\\provider",
+			"sourceIndexes" : 
+			[
+				195,
+				196,
+				197
+			]
+		},
+		{
+			"name" : "Source Files\\utils\\parser",
+			"sourceIndexes" : 
+			[
+				198,
+				200
+			]
+		},
+		{
+			"name" : "Header Files\\utils\\parser",
+			"sourceIndexes" : 
+			[
+				199,
+				201
+			]
+		},
+		{
+			"name" : "Source Files\\utils",
+			"sourceIndexes" : 
+			[
+				202,
+				204,
+				206,
+				208,
+				210
+			]
+		},
+		{
+			"name" : "Header Files\\utils",
+			"sourceIndexes" : 
+			[
+				203,
+				205,
+				207,
+				209,
+				211
+			]
+		},
+		{
+			"name" : "Source Files\\web\\client",
+			"sourceIndexes" : 
+			[
+				212,
+				214,
+				216,
+				218
+			]
+		},
+		{
+			"name" : "Header Files\\web\\client",
+			"sourceIndexes" : 
+			[
+				213,
+				215,
+				217,
+				219
+			]
+		},
+		{
+			"name" : "Source Files\\web\\mime\\multipart",
+			"sourceIndexes" : 
+			[
+				220,
+				222,
+				224,
+				226,
+				228,
+				230,
+				232,
+				234,
+				236
+			]
+		},
+		{
+			"name" : "Header Files\\web\\mime\\multipart",
+			"sourceIndexes" : 
+			[
+				221,
+				223,
+				225,
+				227,
+				229,
+				231,
+				233,
+				235,
+				237
+			]
+		},
+		{
+			"name" : "Source Files\\web\\mime",
+			"sourceIndexes" : 
+			[
+				238
+			]
+		},
+		{
+			"name" : "Header Files\\web\\mime",
+			"sourceIndexes" : 
+			[
+				239
+			]
+		},
+		{
+			"name" : "Source Files\\web\\protocol",
+			"sourceIndexes" : 
+			[
+				240
+			]
+		},
+		{
+			"name" : "Header Files\\web\\protocol",
+			"sourceIndexes" : 
+			[
+				241
+			]
+		},
+		{
+			"name" : "Source Files\\web\\protocol\\http",
+			"sourceIndexes" : 
+			[
+				242
+			]
+		},
+		{
+			"name" : "Header Files\\web\\protocol\\http",
+			"sourceIndexes" : 
+			[
+				243
+			]
+		},
+		{
+			"name" : "Source Files\\web\\protocol\\http\\encoding",
+			"sourceIndexes" : 
+			[
+				244,
+				247
+			]
+		},
+		{
+			"name" : "Header Files\\web\\protocol\\http\\encoding",
+			"sourceIndexes" : 
+			[
+				245,
+				246,
+				248
+			]
+		},
+		{
+			"name" : "Source Files\\web\\protocol\\http\\incoming",
+			"sourceIndexes" : 
+			[
+				249,
+				251,
+				253,
+				255,
+				257,
+				259
+			]
+		},
+		{
+			"name" : "Header Files\\web\\protocol\\http\\incoming",
+			"sourceIndexes" : 
+			[
+				250,
+				252,
+				254,
+				256,
+				258,
+				260
+			]
+		},
+		{
+			"name" : "Source Files\\web\\protocol\\http\\outgoing",
+			"sourceIndexes" : 
+			[
+				261,
+				263,
+				265,
+				267,
+				269,
+				271,
+				273
+			]
+		},
+		{
+			"name" : "Header Files\\web\\protocol\\http\\outgoing",
+			"sourceIndexes" : 
+			[
+				262,
+				264,
+				266,
+				268,
+				270,
+				272,
+				274
+			]
+		},
+		{
+			"name" : "Source Files\\web\\protocol\\http\\utils",
+			"sourceIndexes" : 
+			[
+				275
+			]
+		},
+		{
+			"name" : "Header Files\\web\\protocol\\http\\utils",
+			"sourceIndexes" : 
+			[
+				276
+			]
+		},
+		{
+			"name" : "Source Files\\web\\server",
+			"sourceIndexes" : 
+			[
+				277,
+				279,
+				281,
+				284,
+				286
+			]
+		},
+		{
+			"name" : "Header Files\\web\\server",
+			"sourceIndexes" : 
+			[
+				278,
+				280,
+				282,
+				283,
+				285,
+				287
+			]
+		},
+		{
+			"name" : "Source Files\\web\\server\\api",
+			"sourceIndexes" : 
+			[
+				288,
+				290
+			]
+		},
+		{
+			"name" : "Header Files\\web\\server\\api",
+			"sourceIndexes" : 
+			[
+				289,
+				291
+			]
+		},
+		{
+			"name" : "Source Files\\web\\server\\handler",
+			"sourceIndexes" : 
+			[
+				292,
+				294
+			]
+		},
+		{
+			"name" : "Header Files\\web\\server\\handler",
+			"sourceIndexes" : 
+			[
+				293,
+				295
+			]
+		},
+		{
+			"name" : "Source Files\\web\\server\\interceptor",
+			"sourceIndexes" : 
+			[
+				296
+			]
+		},
+		{
+			"name" : "Header Files\\web\\server\\interceptor",
+			"sourceIndexes" : 
+			[
+				297,
+				298,
+				299
+			]
+		},
+		{
+			"name" : "Source Files\\web\\url\\mapping",
+			"sourceIndexes" : 
+			[
+				300
+			]
+		},
+		{
+			"name" : "Header Files\\web\\url\\mapping",
+			"sourceIndexes" : 
+			[
+				301,
+				302
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				303,
+				305
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				304,
+				306,
+				307
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/ConditionVariable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/ConditionVariable.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/Coroutine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/Coroutine.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/CoroutineWaitList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/CoroutineWaitList.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/Error.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/Error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/Executor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/Executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/Lock.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/Lock.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/Processor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/Processor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/utils/FastQueue.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/worker/IOEventWorker_common.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/worker/IOEventWorker_epoll.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/worker/IOEventWorker_kqueue.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/worker/IOEventWorker_stub.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/worker/IOEventWorker.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/worker/IOWorker.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/worker/IOWorker.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/worker/TimerWorker.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/worker/TimerWorker.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/async/worker/Worker.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/async/worker/Worker.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/base/CommandLineArguments.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/base/CommandLineArguments.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/base/Compiler.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/base/Config.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/base/Countable.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/base/Countable.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/base/Log.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/base/Log.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/base/ObjectHandle.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/api_controller/auth_define.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/api_controller/auth_undef.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/api_controller/base_define.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/api_controller/base_undef.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/api_controller/bundle_define.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/api_controller/bundle_undef.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/api_controller/cors_define.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/api_controller/cors_undef.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/dto/base_define.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/dto/base_undef.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/dto/enum_define.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/dto/enum_undef.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/ApiClient_define.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/ApiClient_undef.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/ApiController_define.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/ApiController_undef.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/DbClient_define.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/DbClient_undef.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/DTO_define.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/codegen/DTO_undef.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/concurrency/SpinLock.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/concurrency/SpinLock.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/concurrency/Utils.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/concurrency/Utils.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/Bundle.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/Bundle.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/buffer/FIFOBuffer.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/buffer/FIFOBuffer.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/buffer/IOBuffer.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/buffer/IOBuffer.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/buffer/Processor.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/buffer/Processor.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/mapping/ObjectRemapper.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/mapping/ObjectRemapper.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/mapping/ObjectMapper.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/mapping/ObjectMapper.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/mapping/ObjectToTreeMapper.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/mapping/ObjectToTreeMapper.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/mapping/Tree.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/mapping/Tree.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/mapping/TreeToObjectMapper.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/mapping/TreeToObjectMapper.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/mapping/TypeResolver.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/mapping/TypeResolver.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/resource/File.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/resource/File.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/resource/InMemoryData.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/resource/InMemoryData.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/resource/Resource.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/resource/TemporaryFile.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/resource/TemporaryFile.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/share/LazyStringMap.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/share/MemoryLabel.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/share/MemoryLabel.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/share/StringTemplate.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/share/StringTemplate.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/stream/BufferStream.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/stream/BufferStream.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/stream/FIFOStream.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/stream/FIFOStream.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/stream/FileStream.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/stream/FileStream.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/stream/Stream.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/stream/Stream.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/stream/StreamBufferedProxy.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/stream/StreamBufferedProxy.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/Any.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Any.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Collection.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/Enum.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Enum.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/List.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/List.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Map.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/Object.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Object.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/PairList.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/PairList.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/Primitive.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Primitive.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/Tree.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Tree.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/Type.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Type.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/UnorderedMap.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/UnorderedMap.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/UnorderedSet.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/UnorderedSet.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/data/type/Vector.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/data/type/Vector.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/encoding/Base64.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/encoding/Base64.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/encoding/Hex.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/encoding/Hex.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/encoding/Unicode.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/encoding/Unicode.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/encoding/Url.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/encoding/Url.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/json/Beautifier.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/json/Beautifier.hpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/json/Deserializer.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/json/Deserializer.hpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/json/ObjectMapper.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/json/ObjectMapper.hpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/json/Serializer.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/json/Serializer.hpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/json/Utils.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/json/Utils.hpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/macro/basic.hpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/macro/codegen.hpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/macro/component.hpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/Address.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/Address.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/ConnectionHandler.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/ConnectionPool.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/ConnectionPool.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/ConnectionProvider.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/ConnectionProvider.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/ConnectionProviderSwitch.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/ConnectionProviderSwitch.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/Server.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/Server.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/Url.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/Url.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/monitor/ConnectionInactivityChecker.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/monitor/ConnectionInactivityChecker.hpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/monitor/ConnectionMaxAgeChecker.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/monitor/ConnectionMaxAgeChecker.hpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/monitor/ConnectionMonitor.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/monitor/ConnectionMonitor.hpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/monitor/MetricsChecker.hpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/monitor/StatCollector.hpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/tcp/Connection.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/tcp/Connection.hpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/tcp/ConnectionConfigurer.hpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/tcp/client/ConnectionProvider.cpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/tcp/client/ConnectionProvider.hpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/tcp/server/ConnectionProvider.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/tcp/server/ConnectionProvider.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/virtual_/Interface.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/virtual_/Interface.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/virtual_/Pipe.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/virtual_/Pipe.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/virtual_/Socket.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/virtual_/Socket.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/virtual_/client/ConnectionProvider.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/virtual_/client/ConnectionProvider.hpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/network/virtual_/server/ConnectionProvider.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/network/virtual_/server/ConnectionProvider.hpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/orm/Connection.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/orm/DbClient.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/orm/DbClient.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/orm/Executor.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/orm/Executor.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/orm/QueryResult.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/orm/QueryResult.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/orm/SchemaMigration.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/orm/SchemaMigration.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/orm/Transaction.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/orm/Transaction.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/provider/Invalidator.hpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/provider/Pool.hpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/provider/Provider.hpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/utils/parser/Caret.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/utils/parser/Caret.hpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/utils/parser/ParsingError.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/utils/parser/ParsingError.hpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/utils/Binary.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/utils/Binary.hpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/utils/Conversion.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/utils/Conversion.hpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/utils/CRC32.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/utils/CRC32.hpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/utils/Random.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/utils/Random.hpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/utils/String.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/utils/String.hpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/client/ApiClient.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/client/ApiClient.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/client/HttpRequestExecutor.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/client/HttpRequestExecutor.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/client/RequestExecutor.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/client/RequestExecutor.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/client/RetryPolicy.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/client/RetryPolicy.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/FileProvider.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/FileProvider.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/InMemoryDataProvider.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/InMemoryDataProvider.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/Multipart.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/Multipart.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/Part.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/Part.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/PartList.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/PartList.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/PartReader.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/PartReader.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/Reader.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/Reader.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/StatefulParser.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/StatefulParser.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/multipart/TemporaryFileProvider.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/multipart/TemporaryFileProvider.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/mime/ContentMappers.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/mime/ContentMappers.hpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/CommunicationError.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/CommunicationError.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/Http.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/Http.hpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/encoding/Chunked.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/encoding/Chunked.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/encoding/EncoderProvider.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/encoding/ProviderCollection.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/encoding/ProviderCollection.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/incoming/BodyDecoder.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/incoming/BodyDecoder.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/incoming/Request.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/incoming/Request.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/incoming/RequestHeadersReader.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/incoming/RequestHeadersReader.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/incoming/Response.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/incoming/Response.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/incoming/ResponseHeadersReader.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/incoming/ResponseHeadersReader.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/incoming/SimpleBodyDecoder.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/incoming/SimpleBodyDecoder.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/outgoing/Body.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/outgoing/Body.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/outgoing/BufferBody.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/outgoing/BufferBody.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/outgoing/MultipartBody.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/outgoing/MultipartBody.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/outgoing/Request.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/outgoing/Request.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/outgoing/Response.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/outgoing/Response.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/outgoing/ResponseFactory.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/outgoing/ResponseFactory.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/outgoing/StreamingBody.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/outgoing/StreamingBody.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/protocol/http/utils/CommunicationUtils.cpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/protocol/http/utils/CommunicationUtils.hpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/AsyncHttpConnectionHandler.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/AsyncHttpConnectionHandler.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/HttpConnectionHandler.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/HttpConnectionHandler.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/HttpProcessor.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/HttpProcessor.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/HttpRequestHandler.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/HttpRouter.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/HttpRouter.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/HttpServerError.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/HttpServerError.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/api/ApiController.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/api/ApiController.hpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/api/Endpoint.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/api/Endpoint.hpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/handler/AuthorizationHandler.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/handler/AuthorizationHandler.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/handler/ErrorHandler.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/handler/ErrorHandler.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/server/interceptor/AllowCorsGlobal.cpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/interceptor/AllowCorsGlobal.hpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/interceptor/RequestInterceptor.hpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/server/interceptor/ResponseInterceptor.hpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/web/url/mapping/Pattern.cpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/url/mapping/Pattern.hpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/web/url/mapping/Router.hpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/Environment.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/Environment.hpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/oatpp/IODefinitions.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/IODefinitions.hpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/oatpp/Types.hpp",
+			"sourceGroupIndex" : 83
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
