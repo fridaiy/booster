@@ -1,2 +1,1 @@
-# booster
-高并发web框架
+# booster 利用协程实现的c++Web框架
