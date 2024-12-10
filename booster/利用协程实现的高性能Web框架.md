@@ -20,7 +20,7 @@
 
 ## 1.整体流程
 
-![](C:\Users\DELL\Downloads\server.png)
+![](server.png)
 
 Server是整个项目的启动类；通过Server::run()方法启动循环，不断的获取连接并处理连接
 
@@ -72,7 +72,7 @@ AsyncHrrpConnectionHandler:封装了executor,HttpRoutor，拦截器等处理连�
 
 ## 2.协程调度器
 
-![](C:\Users\DELL\Downloads\executor.png)
+![](executor.png)
 
 **整个协程处理器主要由三种工作线程组成**：ProcessorWorker,IoEventWorker,TimerWorker,每种worker都具有**执行当前协程，并根据返回的动作进行调度的能力**；ProcessorWorker具有调度有所有动作的能力，IoEventWorker只有调度io_wait和io_repeat状态的能力，其他动作交给ProcessorWorker进行调度;TimerWorker只具有调度io_wait和wait_repeat状态的能力，其余动作都是交给ProcessorWorker进行调度。
 
